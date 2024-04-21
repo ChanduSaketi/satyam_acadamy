@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "482283345404",
+    "project_id": "satyam-academy",
+    "storage_bucket": "satyam-academy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482283345404:android:581a08446334a0a0a24e79",
+        "android_client_info": {
+          "package_name": "com.satyam.academy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482283345404-6i2eckls9c32sq5bpp2m6g7959gcmgd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHiDCQ9EAR6bsUVQV69r7Jxdi58nCxDts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482283345404-6i2eckls9c32sq5bpp2m6g7959gcmgd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

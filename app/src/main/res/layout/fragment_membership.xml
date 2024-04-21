@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.cmt.viewModel.fragment.MembershipVM" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.fragment.MembershipFragment">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="22dp"
+            android:elevation="2dp"
+            android:visibility="@{viewModel.rootVisibility? View.VISIBLE:View.GONE ,default=visible}"
+            app:cardBackgroundColor="@color/colorAccent"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="23dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:lineSpacingExtra="-5dp"
+                    android:lines="2"
+                    android:text="@{viewModel.model.user_check}"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    tools:text="@string/txt_for_first_time_user_its_free_for_one_year" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@{`Expires on ` + viewModel.model.subscription_expiry_date}"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:visibility="@{viewModel.model.first_time_user==0? View.GONE : View.VISIBLE,default=visible}"
+                    tools:text="@string/txt_expires_on_march_01_2023" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnRenewal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/input_text_5_bg"
+                    android:backgroundTint="@color/colorLogo"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:paddingStart="18dp"
+                    android:paddingTop="12dp"
+                    android:paddingEnd="18dp"
+                    android:paddingBottom="12dp"
+                    android:text="@string/txt_renewal"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorText"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:visibility="@{(viewModel.model.first_time_user==0 || viewModel.model.is_subscribed==1)? View.GONE : View.VISIBLE,default=gone}" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/input_text_5_bg"
+                    android:backgroundTint="@color/colorLogo"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:onClick="@{viewModel::purchaseCourse}"
+                    android:paddingStart="18dp"
+                    android:paddingTop="12dp"
+                    android:paddingEnd="18dp"
+                    android:paddingBottom="12dp"
+                    android:text="@string/txt_purchase_course"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorText"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:visibility="@{viewModel.model.first_time_user==0? View.VISIBLE : View.GONE ,default=gone}" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</layout>

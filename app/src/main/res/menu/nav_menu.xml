@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/homeGroup">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home" />
+    </group>
+    <group android:id="@+id/categories">
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_categories" />
+    </group>
+    <group android:id="@+id/memberShip">
+        <item
+            android:id="@+id/nav_membership"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_my_membership" />
+    </group>
+    <group android:id="@+id/myCourses">
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_my_courses" />
+    </group>
+    <group android:id="@+id/myOrder">
+        <item
+            android:id="@+id/nav_myOrder"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_my_order" />
+    </group>
+    <group android:id="@+id/changePassword">
+        <item
+            android:id="@+id/nav_changePassword"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_change_password" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_logOut"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>

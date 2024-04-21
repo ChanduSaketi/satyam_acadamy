@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.cmt.viewModel.fragment.OtpVM" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
+            android:orientation="vertical"
+            tools:context=".view.fragment.OtpFragment">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="35dp"
+                android:contentDescription="@string/hint_image"
+                android:src="@drawable/otp_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:autoSizeMaxTextSize="24sp"
+                android:autoSizeMinTextSize="21sp"
+                android:autoSizeTextType="uniform"
+                android:text="@string/txt_verification_code"
+                android:textColor="@color/colorText"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="UnusedAttribute" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:autoSizeMaxTextSize="14sp"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/semibold"
+                android:gravity="center"
+                android:text="@string/txt_please_enter_the_4_digit_code_just_sent_to"
+                android:textColor="@color/colorText"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:id="@+id/phoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:autoSizeMaxTextSize="14sp"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:text="@{`+91`+ viewModel.mobileNumber}"
+                android:textColor="@color/colorText"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="UnusedAttribute"
+                tools:text="+91 9865214703" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etOtp1"
+                    android:layout_width="67dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/input_text_5_bg"
+                    android:digits="0123456987"
+                    android:fontFamily="@font/regular"
+                    android:hint="@string/txt_0"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorText"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etOtp2"
+                    android:layout_width="67dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/input_text_5_bg"
+                    android:digits="0123456987"
+                    android:fontFamily="@font/regular"
+                    android:hint="@string/txt_0"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorText"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etOtp3"
+                    android:layout_width="67dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/input_text_5_bg"
+                    android:digits="0123456987"
+                    android:fontFamily="@font/regular"
+                    android:hint="@string/txt_0"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorText"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etOtp4"
+                    android:layout_width="67dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/input_text_5_bg"
+                    android:digits="0123456987"
+                    android:fontFamily="@font/regular"
+                    android:hint="@string/txt_0"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorText"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:text="@{viewModel.errorMsg}"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="11sp"
+                android:visibility="@{viewModel.errorMsg!= null? View.VISIBLE : View.VISIBLE ,default=gone}" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/verifyBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="25dp"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="18sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/input_text_5_bg"
+                android:backgroundTint="@color/colorAccent"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/semibold"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="16dp"
+                android:text="@string/txt_verify"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="18sp"
+                android:fontFamily="@font/semibold"
+                android:text="@{`Resend code in `+viewModel.otpTimerString}"
+                android:textColor="@color/colorText"
+                android:textSize="13sp"
+                android:visibility="@{viewModel.select? View.GONE : View.VISIBLE ,default=visible}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/regular"
+                android:text="@string/txt_didn_t_receive_a_code"
+                android:textColor="@color/colorText"
+                android:textSize="13sp"
+                android:visibility="@{viewModel.select? View.VISIBLE : View.GONE , default=gone}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/regular"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="@{viewModel::resendOtp}"
+                android:padding="2dp"
+                android:text="@string/txt_resend"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                android:visibility="@{viewModel.select? View.VISIBLE : View.GONE , default=gone}"
+                tools:visibility="visible" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

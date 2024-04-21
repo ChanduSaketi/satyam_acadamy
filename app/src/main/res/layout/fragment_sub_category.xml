@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.cmt.viewModel.fragment.SubCategoryVM" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:visibility="@{viewModel.rootVisibility? View.VISIBLE:View.GONE ,default=visible}">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
+            android:orientation="vertical"
+            tools:context=".view.fragment.SubCategoryFragment">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/addToCheckOut"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical">
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/sliders"
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal"
+                    android:overScrollMode="always" />
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/viewPagerDots"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    app:tabBackground="@drawable/tab_bg"
+                    app:tabIndicatorHeight="0dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbBooks"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selected_radio_bg"
+                        android:button="@android:color/transparent"
+                        android:checked="true"
+                        android:fontFamily="@font/semibold"
+                        android:gravity="center_horizontal"
+                        android:padding="18dp"
+                        android:text="@string/txt_books"
+                        android:textColor="@drawable/radio_btn_selected_text"
+                        android:textSize="14sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbVideos"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selected_radio_bg"
+                        android:button="@android:color/transparent"
+                        android:fontFamily="@font/semibold"
+                        android:gravity="center_horizontal"
+                        android:padding="18dp"
+                        android:text="@string/txt_videos"
+                        android:textColor="@drawable/radio_btn_selected_text"
+                        android:textSize="14sp" />
+                </RadioGroup>
+
+                <FrameLayout
+                    android:id="@+id/subCategoriesFrameContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="@{viewModel::clickCheckOut}"
+                android:orientation="vertical"
+                android:padding="10sp"
+                android:visibility="@{viewModel.isDataAvailable? View.GONE : View.VISIBLE,default=gone}">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Still no materials &amp; Videos added"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoSizeMaxTextSize="22sp"
+                    android:autoSizeMinTextSize="19sp"
+                    android:autoSizeTextType="uniform"
+                    android:text="Come Back Again"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="UnusedAttribute" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/addToCheckOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="@{viewModel::clickCheckOut}"
+                android:orientation="vertical"
+                android:padding="10sp"
+                android:visibility="@{(viewModel.isDataAvailable &amp;&amp; viewModel.isPurchased==0)? View.VISIBLE : View.GONE,default=visible}">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/txt_click_here_to_purchase_this_course"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoSizeMaxTextSize="22sp"
+                    android:autoSizeMinTextSize="19sp"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/txt_checkout_now"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="UnusedAttribute" />
+
+            </LinearLayout>
+            <!--  <LinearLayout
+                  android:id="@+id/subscribeLayout"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:layout_marginTop="10dp"
+                  android:background="@color/colorAccent"
+                  android:clickable="true"
+                  android:focusable="true"
+                  android:foreground="?attr/selectableItemBackground"
+                  android:onClick="@{viewModel::subscribe}"
+                  android:orientation="vertical"
+                  android:padding="14sp">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:text="@string/txt_please_subscribe_for_full_pdf_books"
+                      android:textColor="@android:color/white"
+                      android:textSize="13sp" />
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:autoSizeMaxTextSize="26sp"
+                      android:autoSizeMinTextSize="22sp"
+                      android:autoSizeTextType="uniform"
+                      android:text="@string/txt_subscribe_now"
+                      android:textColor="@android:color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      tools:ignore="UnusedAttribute" />
+
+              </LinearLayout>-->
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

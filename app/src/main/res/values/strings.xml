@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Satyam Academy</string>
+    <string name="default_notification_channel_id">cmt.Sthree</string>
+    <string name="rupee">₹</string>
+    <string name="hint_permission_title">Allow permissions!</string>
+    <string name="hint_please_allow_permission">Please allow the camera and location permission to the application. So that you can upload the image of damage and get accurate results.\n\n\nSetting->Permissions->Allow Camera and location permission</string>
+    <string name="hint_permission_sorry">Sorry you are not allowed to process further.</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_settings">Settings</string>
+    <string name="hint_image_desc">Image</string>
+    <string name="hint_image">Image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_Login">Login</string>
+    <string name="title_Register">Register</string>
+
+    <string name="tct_retype_password">Re-enter Password</string>
+    <string name="txt_current_password">Current password</string>
+    <string name="txt_learn_anywhere_anytime"><![CDATA[Learn Anywhere & Anytime]]></string>
+    <string name="txt_sign_in">Sign in</string>
+    <string name="txt_create_account">Create Account</string>
+    <string name="txt_don_t_have_an_account_register">Don\'t have an account<font color="#894DF8"> <b>Register</b> </font></string>
+    <string name="txt_login">Login</string>
+    <string name="txt_forgot_password">Forgot Password?</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_mobile_no_email_id">Mobile No / Email Id</string>
+    <string name="txt_already_a_member_login">Already a member <font color="#894DF8"><b>Login</b></font></string>
+    <string name="txt_name">Name</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_mobile_no">Mobile No.</string>
+    <string name="txt_verification_code">Verification Code</string>
+    <string name="txt_please_enter_the_4_digit_code_just_sent_to">Please enter the 4-digit code just sent to</string>
+    <string name="txt_0">0</string>
+    <string name="txt_verify">Verify</string>
+    <string name="txt_didn_t_receive_a_code">Didn\'t receive a code?</string>
+    <string name="txt_resend">RESEND</string>
+    <string name="txt_welcome">Welcome!</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_categories">Categories</string>
+    <string name="menu_my_membership">My Membership</string>
+    <string name="menu_my_courses">My Courses</string>
+    <string name="menu_my_order">My Orders</string>
+    <string name="menu_change_password">Change Password</string>
+    <string name="open_drawer">Open Drawer Layout</string>
+    <string name="close_drawer">Close Drawer Layout</string>
+    <string name="menu_logout">Logout</string>
+    <string name="dummy_mobile_9865741203">9865741203</string>
+    <string name="txt_complete_spoken_english_course">Complete Spoken English Course</string>
+    <string name="txt_coaching_for_all_govt_jobs">Coaching for all Govt jobs</string>
+    <string name="txt_view_all">View all</string>
+    <string name="txt_categories">Categories</string>
+    <string name="txt_books">BOOKS</string>
+    <string name="txt_videos">Videos</string>
+    <string name="txt_upcoming_books">Upcoming Books</string>
+    <string name="txt_please_subscribe_for_full_pdf_books">PLEASE SUBSCRIBE FOR FULL PDF BOOKS</string>
+    <string name="txt_subscribe_now">Subscribe Now!</string>
+    <string name="txt_for_first_time_user_its_free_for_one_year">For First time user its <b> FREE </b> <br />for One Year</string>
+    <string name="txt_expires_on_march_01_2023">Expires on March 01, 2023</string>
+    <string name="txt_renewal">Renewal</string>
+    <string name="txt_click_here">Click Here</string>
+    <string name="txt_yearly_plan">Yearly Plan</string>
+    <string name="txt_300">₹300</string>
+    <string name="txt_total">Total</string>
+    <string name="txt_first_time_user">( First time user )</string>
+    <string name="txt_free">FREE</string>
+    <string name="txt_membership">Membership</string>
+    <string name="txt_item_total">Item total</string>
+    <string name="txt_no_courses_added_in_to_cart_n_click_here_to_go_to_home">No courses Added In Cart.<br>Click here to go to <font color="#FF914D"><b>Home</b></font></br></string>
+    <string name="txt_purchase_success_message">Your purchase has been successfuly completed.</string>
+
+    <string name="txt_confirm">Confirm</string>
+    <string name="txt_are_you_sure_to_cancel_this_order">Are you sure to cancel this order?</string>
+    <string name="txt_cart_clear_text_">This will clear the item in your cart. Do you want to proceed?</string>
+    <string name="txt_no">No</string>
+    <string name="txt_yes">Yes</string>
+    <string name="txt_total_amount">Total Amount</string>
+    <string name="txt_1500">₹1500</string>
+    <string name="txt_update_profile">UpDate Profile</string>
+    <string name="txt_phone">Phone</string>
+    <string name="txt_old_password">Old Password</string>
+    <string name="txt_new_password">New Password</string>
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="txt_update_password">Update Password</string>
+    <string name="txt_dummy_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</string>
+    <string name="txt_english_practice_book">English Practice Book</string>
+    <string name="txt_sample_version">Sample Version</string>
+    <string name="txt_enter_your_mobile_mail_to_recover">Enter your mobile number or e-mail to recover your password</string>
+    <string name="txt_send_otp">Send OTP</string>
+    <string name="txt_create_new_password">Create New Password</string>
+    <string name="title_material">Material</string>
+    <string name="txt_continue">Continue</string>
+    <string name="txt_back_to_home">Back To Home</string>
+    <string name="txt_click_here_to_purchase_this_course">Click here to purchase this course</string>
+    <string name="txt_checkout_now">CheckOut Now</string>
+    <string name="txt_currently_there_is_no_material_to_show">Currently there is no Material to show</string>
+    <string name="txt_currently_there_is_no_videos_to_show">Currently there is no Videos to show</string>
+    <string name="txt_no_courses">Sorry! Still You Didn\'t Purchased any course</string>
+    <string name="txt_no_orders">Sorry! You Dont have any orders</string>
+
+    <string-array name="Country_Code">
+        <item>+91</item>
+        <item>+61</item>
+        <item>+32</item>
+        <item>+1-284</item>
+        <item>+20</item>
+        <item>+7</item>
+        <item>+1-684</item>
+
+    </string-array>
+    <string name="title_activity_payment_gateway">PaymentGatewayActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="txt_please_wait_while_we_are_processing">Please wait while we are processing</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_subscription_txt">!Your Subscription has been ended..<br/> please kindly renewal your subsription for full books and videos</string>
+    <string name="txt_purchase_course">Purchase Course</string>
+</resources>

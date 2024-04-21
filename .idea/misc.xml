@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/drawable/bg_edit_10dp.xml" value="0.20512820512820512" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/drawable/circular_camera.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/drawable/dummy_profile.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/drawable/ic_person.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/drawable/ic_person_outline.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/activity_main.xml" value="0.1685185185185185" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/activity_pdf.xml" value="0.1921875" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/activity_plain.xml" value="0.1921875" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/activity_splash.xml" value="0.1921875" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/category_item.xml" value="0.18" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/custom_menu_layout.xml" value="0.22" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_cms.xml" value="0.17" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_feedback.xml" value="0.1921875" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_forgot_password.xml" value="0.2" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_help_support.xml" value="0.25" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_login.xml" value="0.18" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_main.xml" value="0.16" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_my_profile.xml" value="0.2" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_notification.xml" value="0.1921875" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_otp.xml" value="0.2" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_register.xml" value="0.18923076923076923" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_search.xml" value="0.18" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_select_new_password.xml" value="0.18" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_settings.xml" value="0.18" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_study_material.xml" value="0.1921875" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_study_material_pdf.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_subject_search.xml" value="0.2" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_web_view.xml" value="0.1" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/home_screen_adv_viewpager.xml" value="0.1921875" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/home_screen_banner_viewpager.xml" value="0.1" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/home_screen_viewpager.xml" value="0.1" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/layout_notification_item.xml" value="0.22" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/mani_content_layout.xml" value="0.1921875" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/material_pdf_recycler_items.xml" value="0.1921875" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/nav_header.xml" value="0.178125" />
+        <entry key="..\:/Android Projects/sthree-ecourses-android/app/src/main/res/layout/study_material_recycler_items.xml" value="0.1" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/backnav_bg.xml" value="0.13958333333333334" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/bar_menu.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/bg_circle_non_active.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/categoriees.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/change_password.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/cursor_bg.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/delete.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/eye_not_visible.xml" value="0.13" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/home_icon.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/ic_arrow.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/ic_camera.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/ic_camera_picker.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/ic_circle.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/ic_circle_active.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/ic_eye.xml" value="0.13" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/ic_play_icon.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/input_text_5_bg.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/my_membership.xml" value="0.13125" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/my_order.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/mycourse.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/otp_icon.xml" value="0.2546875" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/radio_btn_selected_text.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/selected_bg_stroke_accent.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/selected_bg_stroke_accent_8dp.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/selected_radio_bg.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/tab_bg.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/drawable/unselected_bg_stroke_8dp.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/activity_payment.xml" value="0.22916666666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/activity_pdf.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/activity_plain.xml" value="0.4" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/activity_splash.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/activity_video_playing.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/category_item.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/custom_menu.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/custom_menu_layout.xml" value="0.264" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_alert_dialog.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_blank.xml" value="0.23854166666666668" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_books.xml" value="0.4" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_cart.xml" value="0.2" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_categories.xml" value="0.22916666666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_change_password.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_choose_new_password.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_clear_cart_dialog.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_cms.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_edit_my_profile.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_forgot_password.xml" value="0.264" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_login.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_main.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_membership.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_my_course_details.xml" value="0.25" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_my_courses.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_my_orders.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_my_profile.xml" value="0.4" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_order_details.xml" value="0.23854166666666668" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_otp.xml" value="0.4" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_purchase_successful.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_register.xml" value="0.264" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_settings.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_sub_category.xml" value="0.2" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_subscribe_plans.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_video_opening_diaog.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_video_playing.xml" value="0.22916666666666666" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_videos.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/fragment_web_view.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/layout_books.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/layout_cart.xml" value="0.536" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/layout_categories.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/layout_main_slider.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/layout_materials.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/layout_my_orders.xml" value="0.4" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/layout_upcoming_books.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/nav_menu_header.xml" value="0.264" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/layout/video_view.xml" value="0.2" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/menu/nav_menu.xml" value="0.4" />
+        <entry key="..\:/Indu_Projects/satyam-academy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13958333333333334" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/about.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/arrow_right.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/backnav_bg.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/bg_20dp.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/bg_edit_10dp.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/bg_edit_5dp.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/camera.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/card_bg.xml" value="0.2" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/circular_camera.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/concept_based.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/cursor_color.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/eye.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/feedback.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/help_supports.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/home.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/ic_alert_icon.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/ic_arrow.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/ic_cancel.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/ic_feed.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/ic_feedback.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/ic_home.xml" value="0.2548717948717949" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/ic_info.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/ic_person_outline.xml" value="0.2548717948717949" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/logout.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/logout_button_bg.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/main_activity_bg_bottom_curves.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/main_layout_top_corners.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/my_profile.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/notifications.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/privacy_policy.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/search.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/settings.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/settings__2_.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/spinner_bg.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/spinner_related_edit_text.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/drawable/terms_conditions.xml" value="0.25885416666666666" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout-v23/fragment_login.xml" value="0.12239583333333333" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/activity_full_plain.xml" value="0.15328947368421053" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/activity_pdf.xml" value="0.15328947368421053" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/activity_plain.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/activity_splash.xml" value="0.136" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/category_item.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/custom_menu_layout.xml" value="0.45286686103012636" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_cms.xml" value="0.15328947368421053" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_concept_based_videos.xml" value="0.2" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_feedback.xml" value="0.264" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_forgot_password.xml" value="0.28112449799196787" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_help_support.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_main.xml" value="0.26931818181818185" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_my_profile.xml" value="0.35207823960880197" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_notification.xml" value="0.2" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_notifications.xml" value="0.15328947368421053" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_otp.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_pdf.xml" value="0.14473684210526316" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_register.xml" value="0.4" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_select_new_password.xml" value="0.4" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_settings.xml" value="0.2909090909090909" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_study_material.xml" value="0.2" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_study_material_pdf.xml" value="0.15328947368421053" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/fragment_web_view.xml" value="0.1" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/home_screen_adv_viewpager.xml" value="0.1" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/home_screen_banner_viewpager.xml" value="0.1" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/home_screen_viewpager.xml" value="0.1" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/layout_notification_item.xml" value="0.15328947368421053" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/mani_content_layout.xml" value="0.15328947368421053" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/material_pdf_recycler_items.xml" value="0.176" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/nav_header.xml" value="0.15328947368421053" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/study_material_recycler_items.xml" value="0.4" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/layout/warning_dialog_box.xml" value="0.15328947368421053" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/menu/nav_menu.xml" value="0.24270833333333333" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16348684210526315" />
+        <entry key="..\:/Indu_Projects/sthree-ecourses-android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.16348684210526315" />
+        <entry key="..\:/Santhosh Projects/Android Projects/satyam_academy/app/src/main/res/layout/fragment_alert_dialog.xml" value="0.25025641025641027" />
+        <entry key="..\:/Santhosh Projects/Android Projects/satyam_academy/app/src/main/res/layout/fragment_main.xml" value="0.21388888888888888" />
+        <entry key="..\:/Santhosh Projects/Android Projects/satyam_academy/app/src/main/res/layout/layout_main_slider.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.26851851851851855" />
+        <entry key="app/src/main/res/layout/fragment_forgot_password.xml" value="0.362962962962963" />
+        <entry key="app/src/main/res/layout/fragment_help_support.xml" value="0.3787037037037037" />
+        <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.3787037037037037" />
+        <entry key="app/src/main/res/layout/fragment_otp.xml" value="0.3787037037037037" />
+        <entry key="app/src/main/res/layout/fragment_pdf.xml" value="0.3787037037037037" />
+        <entry key="app/src/main/res/layout/fragment_select_new_password.xml" value="0.3787037037037037" />
+        <entry key="app/src/main/res/layout/fragment_study_material_pdf.xml" value="0.3787037037037037" />
+        <entry key="app/src/main/res/layout/layout_notification_item.xml" value="0.3787037037037037" />
+        <entry key="app/src/main/res/layout/mani_content_layout.xml" value="0.3787037037037037" />
+        <entry key="app/src/main/res/layout/material_pdf_recycler_items.xml" value="0.21927083333333333" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.3787037037037037" />
+        <entry key="app/src/main/res/layout/study_material_recycler_items.xml" value="0.21927083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

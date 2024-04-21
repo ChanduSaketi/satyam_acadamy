@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#FF014D</color>
+    <color name="colorAccent">#894DF8</color>
+    <color name="colorBackground">#FFFFFF</color>
+
+
+    <color name="colorText">#000000</color>
+    <color name="colorLightGray">#D3D3D3</color>
+    <color name="colorDarkGray">#7A7A7A</color>
+    <color name="colorLogo">#00FFFF</color>
+    <color name="colorLogo2">#ffff00</color>
+    <color name="colorLogo3">#FF914D</color>
+    <color name="colorCardBg">#1F5DD5</color>
+    <color name="colorMenuProfileBg">#EAEDF5</color>
+    <color name="colorInputText">#C7C7C7</color>
+    <color name="colorCartText">#3D3D3D</color>
+    <color name="colorBackNav">#5E5E5E</color>
+
+
+
+</resources>

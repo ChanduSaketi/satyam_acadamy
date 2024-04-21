@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.cmt.viewModel.fragment.MainFragmentViewModel" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".view.fragment.MainFragment">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/mainBanners"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:overScrollMode="always" />
+
+            <!--    <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="6dp">
+
+                    <ImageView
+                        android:id="@+id/stickyBanners"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/hint_image"
+                        android:scaleType="fitXY"
+                        tools:src="@drawable/sticky_banner"
+                        bind:imageUrl="@{viewModel.advImage}" />
+                </androidx.cardview.widget.CardView>-->
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/stickyBanners"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:overScrollMode="always" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/viewAll"
+                    android:text="@string/txt_categories"
+                    android:textColor="@color/colorText"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viewAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:fontFamily="@font/regular"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:onClick="@{viewModel::categoriesViewAll}"
+                    android:padding="5dp"
+                    android:text="@string/txt_view_all"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <!--  <LinearLayout
+                  android:id="@+id/sub1Layout"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="11dp"
+                  android:clickable="true"
+                  android:focusable="true"
+                  android:foreground="?attr/selectableItemBackground"
+                  android:orientation="horizontal">
+
+                  <androidx.cardview.widget.CardView
+                      android:layout_width="110dp"
+                      android:layout_height="80dp"
+                      android:layout_marginStart="20dp"
+                      android:layout_marginTop="2dp"
+                      android:layout_marginEnd="12dp"
+                      android:layout_marginBottom="2dp"
+                      app:cardCornerRadius="10dp"
+                      app:cardElevation="2dp">
+
+                      <ImageView
+                          android:layout_width="110dp"
+                          android:layout_height="80dp"
+                          android:contentDescription="@string/hint_image"
+                          android:scaleType="fitXY"
+                          android:src="@drawable/english_book_2" />
+
+                  </androidx.cardview.widget.CardView>
+
+
+                  <TextView
+                      android:id="@+id/category1"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical"
+                      android:layout_marginEnd="15dp"
+                      android:lineSpacingExtra="-5dp"
+                      android:maxLines="2"
+                      android:text="@string/txt_complete_spoken_english_course"
+                      android:textSize="14sp"
+                      android:textStyle="bold"
+                      tools:targetApi="o" />
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:id="@+id/sub2Layout"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:clickable="true"
+                  android:focusable="true"
+                  android:foreground="?attr/selectableItemBackground"
+                  android:orientation="horizontal">
+
+                  <androidx.cardview.widget.CardView
+                      android:layout_width="110dp"
+                      android:layout_height="80dp"
+                      android:layout_marginStart="20dp"
+                      android:layout_marginTop="2dp"
+                      android:layout_marginEnd="12dp"
+                      android:layout_marginBottom="2dp"
+                      app:cardCornerRadius="10dp"
+                      app:cardElevation="2dp">
+
+                      <ImageView
+                          android:layout_width="110dp"
+                          android:layout_height="80dp"
+                          android:contentDescription="@string/hint_image"
+                          android:scaleType="fitXY"
+                          android:src="@drawable/english_book_2" />
+
+                  </androidx.cardview.widget.CardView>
+
+                  <TextView
+                      android:id="@+id/category2"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical"
+                      android:layout_marginEnd="15dp"
+                      android:lineSpacingExtra="-5dp"
+                      android:maxLines="2"
+                      android:text="@string/txt_coaching_for_all_govt_jobs"
+                      android:textSize="14sp"
+                      android:textStyle="bold"
+                      tools:targetApi="o" />
+
+              </LinearLayout>-->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:itemCount="2"
+                android:layout_marginBottom="5dp"
+                tools:listitem="@layout/layout_categories" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/bottomBanners"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:overScrollMode="always" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>
